@@ -74,16 +74,7 @@ a7.onclick = function (){
     a6.classList.remove("active")
     a7.classList.add("active")
     }
-a8.onclick = function (){
-    a1.classList.remove("active")
-    a2.classList.remove("active")
-    a3.classList.remove("active")
-    a4.classList.remove("active")
-    a5.classList.remove("active")
-    a6.classList.remove("active")
-    a7.classList.remove("active")
-        
-}
+
 
 // end     الكود بتاع الزراير الي في ال navbar
 
@@ -230,6 +221,7 @@ window.addEventListener("scroll", function () {
 
 });
 // end     الكود بتاع الارقام الي بتتعد
+
 // Start    الكود بتاع الزراير ال radio
 let inp1 = document.getElementById('inp1')
 let inp2 = document.getElementById('inp2')
