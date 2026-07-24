@@ -9,7 +9,6 @@ let a4 = document.getElementById("a4")
 let a5 = document.getElementById("a5")
 let a6 = document.getElementById("a6")
 let a7 = document.getElementById("a7")
-let a8 = document.getElementById("a8")
 
 a1.onclick = function (){
     a1.classList.add("active")
@@ -19,7 +18,6 @@ a1.onclick = function (){
     a5.classList.remove("active")
     a6.classList.remove("active")
     a7.classList.remove("active")
-    a8.classList.remove("active")
     
 }
 a2.onclick = function (){
@@ -30,7 +28,6 @@ a2.onclick = function (){
     a5.classList.remove("active")
     a6.classList.remove("active")
     a7.classList.remove("active")
-    a8.classList.remove("active")
 }
 a3.onclick = function (){
     a1.classList.remove("active")
@@ -40,8 +37,7 @@ a3.onclick = function (){
     a5.classList.remove("active")
     a6.classList.remove("active")
     a7.classList.remove("active")
-        a8.classList.remove("active")
-}
+    }
 a4.onclick = function (){
     a1.classList.remove("active")
     a2.classList.remove("active")
@@ -50,8 +46,7 @@ a4.onclick = function (){
     a5.classList.remove("active")
     a6.classList.remove("active")
     a7.classList.remove("active")
-        a8.classList.remove("active")
-}
+    }
 a5.onclick = function (){
     a1.classList.remove("active")
     a2.classList.remove("active")
@@ -60,8 +55,7 @@ a5.onclick = function (){
     a5.classList.add("active")
     a6.classList.remove("active")
     a7.classList.remove("active")
-        a8.classList.remove("active")
-}
+    }
 a6.onclick = function (){
     a1.classList.remove("active")
     a2.classList.remove("active")
@@ -70,8 +64,7 @@ a6.onclick = function (){
     a5.classList.remove("active")
     a6.classList.add("active")
     a7.classList.remove("active")
-        a8.classList.remove("active")
-}
+    }
 a7.onclick = function (){
     a1.classList.remove("active")
     a2.classList.remove("active")
@@ -80,8 +73,7 @@ a7.onclick = function (){
     a5.classList.remove("active")
     a6.classList.remove("active")
     a7.classList.add("active")
-        a8.classList.remove("active")
-}
+    }
 a8.onclick = function (){
     a1.classList.remove("active")
     a2.classList.remove("active")
@@ -90,10 +82,12 @@ a8.onclick = function (){
     a5.classList.remove("active")
     a6.classList.remove("active")
     a7.classList.remove("active")
-        a8.classList.add("active")
+        
 }
 
 // end     الكود بتاع الزراير الي في ال navbar
+
+
 // start     الكود بتاع الزراير الي بتجيب الصور
 let Grafic = document.getElementById('Grafic');
 let web = document.getElementById('web');

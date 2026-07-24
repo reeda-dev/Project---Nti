@@ -23,6 +23,7 @@
         position: fixed !important;
   z-index: 50;
   font-family: var(--main2-font);
+  text-transform: uppercase;
 }
 
 .navbar-nav .nav-link
