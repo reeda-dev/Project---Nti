@@ -92,6 +92,8 @@ align-items: center;
 .first-slider .info
 {
 text-align: center;
+width: 80%;
+margin: auto;
 }
 
 .first-slider .info h1
@@ -296,6 +298,12 @@ margin:0 20px;
 
     padding: 20px;
 }
+
+  .about .fram .img-action {
+    
+    transform: translate(0, 0);
+    
+  }
 
 }
 
