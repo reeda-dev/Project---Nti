@@ -1,7 +1,4 @@
 
-
-// start     الكود بتاع الزراير الي في ال navbar
-
 let a1 = document.getElementById("a1")
 let a2 = document.getElementById("a2")
 let a3 = document.getElementById("a3")
@@ -76,7 +73,7 @@ a7.onclick = function (){
     }
 
 
-// end     الكود بتاع الزراير الي في ال navbar
+
 
 
 // start     الكود بتاع الزراير الي بتجيب الصور
